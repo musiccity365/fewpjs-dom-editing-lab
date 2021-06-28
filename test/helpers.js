@@ -17,5 +17,6 @@ const src = babelResult.code
 
 jsdom({
     html,
-    src
+    src,
+    url: "http://localhost"
 });
